@@ -1,0 +1,20 @@
+{
+  "name": "Cargar imagen",
+  "description": "demo de aplicacion",
+  "launch_path": "/Carga_imagen.html",
+  "icons": {
+    "128": "/descarga.jpg"
+  },
+  "developer": {
+    "name": "Cargando",
+    "url": "http://your-homepage-here.org"
+  },
+  "premissions" : {
+    "device-storage: pictures" : {
+        "description" : "Elegir una imagen de la galeria",
+        "access" : "readonly"
+    }
+}
+  ,
+  "default_locale": "en"
+}

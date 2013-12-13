@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<TITLE>Cargar imagen...</TITLE>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<script>
+				function enviar(){
+					var nombre = document.getElementById("imagen").value;
+
+					if(nombre == ""){
+						alert("Seleccione una imagen");
+						return;
+					}
+
+					document.write("La imagen ",nombre, " ha sido enviada!");
+					document.getElementById("miform").submit();
+				}
+		</script>
+	</head>
+	<body> 
+
+		
+		<div class="texto">
+			Seleccione una imagen: 
+		</div>
+
+		<div>
+			<form action="#" method="POST" id="miform">
+				
+				<INPUT type="file" size="30" id="imagen"/>
+				<INPUT type="button" value="Enviar" name="nombreImg" onclick="enviar()"/>
+	
+			</form>
+		</div>
+		
+	
+	</body>
+</html>

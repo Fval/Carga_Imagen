@@ -1,0 +1,47 @@
+img{
+	float:right;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom:1;
+  background-color: red;
+  
+}
+.texto{
+
+	color:white;
+	font-weight: bold;
+	width: 60%;
+	font-family: verdana;
+	font-size: 14px;
+	margin-top: 50%;
+
+}
+
+div{
+
+	font-family: verdana;
+	font-size: 18px;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 19px;
+}
+
+body{
+	background-image: url("fondo.jpg");
+	color:white;
+	font-weight: bold;
+
+} 
+
+script{
+	background-image: url("fondo.jpg");
+	color:white;
+	font-weight: bold;
+
+} 
+
+h1{
+	background-image: url("1.jpg");
+}
